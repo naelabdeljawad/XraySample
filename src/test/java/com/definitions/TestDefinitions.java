@@ -1,11 +1,11 @@
-package com.tests;
+package com.definitions;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.testng.Assert;
 
-public class Definition {
+public class TestDefinitions {
 
     private boolean expectedValue;
     private boolean actualValue;
@@ -24,5 +24,4 @@ public class Definition {
     public void assert_actual_and_expected_values() {
         Assert.assertEquals(actualValue, expectedValue);
     }
-
 }
