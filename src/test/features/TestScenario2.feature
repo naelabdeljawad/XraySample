@@ -10,12 +10,3 @@ Feature: First Feature
     Given Expected value is True
     When Actual value is really "false"
     Then Assert actual and expected values
-
-  Scenario Outline:Req Test 3
-    Given Expected value is True
-    When Actual value is really <value>
-    Then Assert actual and expected values
-    Examples:
-      | value |
-      | true  |
-      | false |
