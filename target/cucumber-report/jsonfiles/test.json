@@ -1,0 +1,71 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-11-14T16:44:27.335Z",
+        "line": 4,
+        "name": "First Test",
+        "description": "",
+        "id": "first-feature;first-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2606000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Expected value is True",
+            "match": {
+              "location": "com.tests.Definition.expected_value_is_true()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 836000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Actual value is really \"true\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"true\"",
+                  "offset": 23
+                }
+              ],
+              "location": "com.tests.Definition.actual_value_is_really(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1825000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Assert actual and expected values",
+            "match": {
+              "location": "com.tests.Definition.assert_actual_and_expected_values()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TEST_CUS-3"
+          }
+        ]
+      }
+    ],
+    "name": "First Feature",
+    "description": "",
+    "id": "first-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/TestFeature.feature",
+    "tags": []
+  }
+]
